@@ -161,7 +161,7 @@ export default function AdminDashboard() {
             </div>
             <div className="flex items-center justify-between flex-1">
               {/* Mockup Donut Chart */}
-              <div className="relative w-24 h-24 rounded-full border-[12px] border-gray-100 border-t-green-500 border-r-green-500 border-b-orange-400 border-l-red-400 flex items-center justify-center">
+              <div className="relative w-24 h-24 rounded-full border-gray-100 border-t-green-500 border-r-green-500 border-b-orange-400 border-l-red-400 flex items-center justify-center">
                 <div className="text-center">
                   <span className="block font-bold text-lg text-slate-800 leading-none">
                     118
