@@ -6,7 +6,7 @@ export default function AdminDashboard() {
     <Layout title="Dashboard Admin">
       <div className="space-y-6">
         {/* ROW 1: Top Stats */}
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 md:gap-6">
           {/* Card 1 */}
           <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col justify-between h-36">
             <div className="flex justify-between items-start">
@@ -81,9 +81,9 @@ export default function AdminDashboard() {
         </div>
 
         {/* ROW 2: Charts Area */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6">
           {/* Tiket per Bulan (Span 2) */}
-          <div className="col-span-2 bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col">
+          <div className="col-span-1 lg:col-span-2 bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col">
             <div className="flex justify-between items-center mb-10">
               <h4 className="font-bold text-sm text-slate-800">
                 Tiket per Bulan
