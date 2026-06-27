@@ -1,0 +1,17 @@
+# Worktrees
+backend/
+frontend/
+
+# Local Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Diffs
+*.diff
+
+# OS / IDE files
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
