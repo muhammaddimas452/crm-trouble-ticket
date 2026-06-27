@@ -9,6 +9,12 @@ frontend/
 
 # Diffs
 *.diff
+backend.diff
+frontend.diff
+
+# Temp/Generated Markdown Documents
+backend.md
+detailed_breakdown_perubahan.md
 
 # OS / IDE files
 .DS_Store
